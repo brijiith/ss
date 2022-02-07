@@ -1,0 +1,37 @@
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	color: black;
+	font-size: 2rem;
+}
+span {
+	font-size: 2rem;
+}
+
+.item {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border: 1px solid rgb(224, 221, 221);
+	border-radius: 10px;
+	margin: 0.2rem 0;
+	min-height: 4.5rem;
+	max-height: 6rem;
+	width: 50rem;
+}
+.item > * {
+	padding: 0 0.7rem;
+}
+
+span {
+	margin-right: auto;
+	text-align: left;
+}
